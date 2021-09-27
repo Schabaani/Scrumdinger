@@ -1,8 +1,9 @@
 import SwiftUI
 
 struct DetailView: View {
-    let scrum: DailyScrum
+    var scrum: DailyScrum
     @State private var isPresented = false
+    @State private var data: DailyScrum.Data = DailyScrum.Data()
     var body: some View {
         List{
             Section(header: Text("Meeting Info")) {
@@ -37,12 +38,13 @@ struct DetailView: View {
                 })
         .fullScreenCover(isPresented: $isPresented) {
             NavigationView{
-                EditView()
+                EditView(scrumData: $data)
                     .navigationTitle(scrum.title)
                     .navigationBarItems(leading: Button("Cancel") {
                                             isPresented = false
                                         }, trailing: Button("Done") {
                                             isPresented = false
+//                                            scrum.update(from: data)
                                         })
             }
         }
