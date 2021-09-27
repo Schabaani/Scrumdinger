@@ -15,6 +15,7 @@
 		1879BA4726A2AC1800051558 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879BA4626A2AC1800051558 /* CardView.swift */; };
 		1879BA4A26A2B4CC00051558 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879BA4926A2B4CC00051558 /* ScrumsView.swift */; };
 		78FA1E0C26A3523B00691F66 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA1E0B26A3523B00691F66 /* DetailView.swift */; };
+		78FA1F022701AB3500691F66 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA1F012701AB3500691F66 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1879BA4626A2AC1800051558 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1879BA4926A2B4CC00051558 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		78FA1E0B26A3523B00691F66 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		78FA1F012701AB3500691F66 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1879BA4626A2AC1800051558 /* CardView.swift */,
 				1879BA4926A2B4CC00051558 /* ScrumsView.swift */,
 				78FA1E0B26A3523B00691F66 /* DetailView.swift */,
+				78FA1F012701AB3500691F66 /* EditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				78FA1E0C26A3523B00691F66 /* DetailView.swift in Sources */,
 				1879BA4226A2A2C300051558 /* DailyScrum.swift in Sources */,
 				1879BA4726A2AC1800051558 /* CardView.swift in Sources */,
+				78FA1F022701AB3500691F66 /* EditView.swift in Sources */,
 				1879BA4A26A2B4CC00051558 /* ScrumsView.swift in Sources */,
 				1879BA2F269EF8B000051558 /* ScrumdingerApp.swift in Sources */,
 			);
